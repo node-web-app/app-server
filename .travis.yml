@@ -1,0 +1,8 @@
+language: node_js
+deploy:
+  provider: heroku
+  api_key:
+    secure: NTRiUJo/fwdDVUcVFBfAAlon5U5a9o03J8hHAaqXabSCNXlk0PFgi5z5mteeW3P0DUYEh88ieWvQb0YXmmpIC73WNCoPF4BdkbI6Ng3PrPt1jgrJpnMgOvj/JEOHOMSkIc34e1F/BzYH+G0cXQUAQgT+0Pv6hTOBlIY6Mk/hodNlwQrQfaKoaE9dZb+yVxU15UE18gPrlMJGY9Om2jhWIIDbuLQ55f1ZJGHVBLQ4mCsEivEcgRxEyZFwfOu+uk6ikWigFkhkkMcBnT3YKhc3tuoHKQ7riLoFwXcC+Puuk9nIYag2MWF0vlphHv6CDASLng4vptWlxz65ac4rSRM6Ek4/taN1mDVv+utG2yBwpyoeb+/WVBhBIOqyZ88O+GDQ/iyXItOcKcO2QQCXnNH7NBReiUnaFri6rIj7i7pPwbO4LPuSLnVlQAftGVu5EhdBYPBNJsmQnQZiA/6Us1CTSK/CD3xk0BVxUB7HTXQ+k5GBsVq5RA9zLa0Hy5hNI97dnmjIJTmqpQ3hU17zJEt5nzhRr5zz8d05jxQw068+7HNjU+qEoQ6fPN3mNKvPnXgM/VCKRdjtbyE+2Hqc4QxuqbS4gePfWRJtMGLlSuxD7iV/VePZVg83wnK8at+j/ohkm4lydY6rP+j+iJoNJh3mhati03f8ATinE3SINoRImD8=
+  app: damp-brook-3753
+  on:
+    repo: node-web-app/app-server
